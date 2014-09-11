@@ -1,0 +1,75 @@
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, a, img, th, td, form, fieldset, iframe { margin: 0; padding: 0; border: 0; outline: 0; }
+a { color: #333; text-decoration: none; }
+a:hover {color: #5EA0F9;}
+ol, ul { list-style: none; }
+:focus { outline: 0; }
+strong { font-weight: bold; }
+
+body { color: #444; font: 12px/1.5 微软雅黑,Arial,sans-serif;}
+/*background: url('../images/bg01.png') repeat 100%;*/
+
+.header {padding: 20px 15px; background-color: #fff;}
+.header .logo { float: left; width: 185px; height: 54px; background: url('../images/global-bg.png') no-repeat -156px -582px;}
+.header .nav{ float: right; margin: 0; overflow: hidden;}
+.header .nav li{ float: left; font-size: 17px; padding:0 30px;}
+.header .nav li.cur a{ color: #5EA0F9;}
+
+.content{ height: 1260px; background:#fff url('../images/platform.png') no-repeat;  overflow: hidden;}
+
+#platform{height: 876px; }
+#platform .btngroup{color: white;height: 100%,text-align: left;}
+#platform .btngroup .app-introduce{margin-top: 100px; font: 12px/1.5 微软雅黑,Arial,sans-serif; }
+#platform .btngroup .app-introduce h1{font-size: 60px;margin-bottom: 60px;}
+#platform .btngroup .app-introduce p{font-size: 20px;margin: 20px 0 20px 0;}
+#platform .btngroup .download-app{margin-top: 30px;}
+
+#platform .btngroup .btndown { display: inline-block; width: 250px; height: 80px; background:url('../images/global-bg.png') no-repeat;}
+#platform .btngroup .mobilediv{width: 250px;float: left; margin-right: 20px; margin-bottom: 10px;}
+#platform .btngroup .ios{ background-position: 0  -89px;}
+#platform .btngroup .ios:hover{background-position: 0 0;}
+#platform .btngroup .adr{ background-position: -290px -89px; float: right;}
+#platform .btngroup .adr:hover{ background-position: -290px 0;}
+#platform .btngroup .wddown{ padding: 8px 75px; text-align: right;}
+#platform .btngroup .wddown a{ color: #ddd; font-size: 16px;}
+#platform .btngroup .downqr{width: 132px; text-align: center; color: #fff; font-size: 16px;}
+#platform .btngroup .downqr .qrimg{width: 128px; height: 128px; display: block; margin-bottom: 12px; padding: 2px; background-color: #fff;}
+
+#platform .zhapp{font-size: 18px;}
+
+/*#platform .phonegroup{}*/
+#platform .phonegroup{background:url('../images/phone.png') no-repeat;background-position: -20px 100px; height: 100%;}
+
+
+/*#description{min-height: 384px}*/
+#description .wrap{margin-top: 80px;}
+#description .icon{width: 130px; height: 130px;background:url('../images/global-bg.png') no-repeat;margin: 0 auto;}
+#description .introduce{}
+#description .introduce h2{text-align: center;font-size: 24px;margin: 20px 0 20px 0 ;}
+#description .introduce p{font-size: 18px;color: #999999;}
+
+#description .near .icon{background-position: 0 -278px;}
+#description .near .introduce{}
+
+
+#description .bulk .icon{background-position: -141px -278px;}
+#description .bulk .introduce{}
+#description .discount .icon{background-position: -282px -278px;}
+#description .discount .introduce{}
+#description .merchant .icon{background-position: 0 -432px;}
+#description .merchant .introduce{}
+#description .map .icon{background-position: -141px -432px;}
+#description .map .introduce{}
+#description .list .icon{background-position: -282px -432px;}
+#description .list .introduce{}
+
+
+
+
+.footer{ padding: 40px 0 50px; border-top: solid 1px #ddd; background-color: #fff;}
+.footer ul{ text-align: center; overflow: hidden;}
+.footer li{ display: inline-block; padding-left:8px; font-size: 14px;}
+.footer li a{ margin-right: 10px;}
+/******bootstrap css rewrite**********/
+.container-fluid {
+   max-width:1668px;
+}
