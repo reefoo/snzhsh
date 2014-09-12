@@ -14,7 +14,7 @@ body { color: #444; font: 12px/1.5 微软雅黑,Arial,sans-serif;}
 .header .nav li{ float: left; font-size: 17px; padding:0 30px;}
 .header .nav li.cur a{ color: #5EA0F9;}
 
-.content{ height: 1260px; background:#fff url('../images/platform.png') no-repeat;  overflow: hidden;}
+.content{ height: 1260px; background:#fff url('../images/platform.jpg') no-repeat;  overflow: hidden;}
 
 #platform{height: 876px; }
 #platform .btngroup{color: white;height: 100%,text-align: left;}
